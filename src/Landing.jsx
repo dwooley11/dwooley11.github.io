@@ -85,7 +85,7 @@ export default function Landing() {
             <LazyJLogo size={52}/>
             <div>
               <div style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: 22, fontWeight: 700, color: '#fff', lineHeight: 1.1 }}>
-                Wooley — Waco, TX
+                Wooley
               </div>
               <div style={{ fontSize: 11, color: BRAND.gold, textTransform: 'uppercase', letterSpacing: 3, fontWeight: 600, marginTop: 4 }}>
                 WoolTools
