@@ -22,7 +22,7 @@ export default function Landing() {
 
   useEffect(() => {
     setMounted(true)
-    document.title = 'WoolTools'
+    document.title = 'Wooley Home'
   }, [])
 
   return (
@@ -88,7 +88,7 @@ export default function Landing() {
                 Wooley
               </div>
               <div style={{ fontSize: 11, color: BRAND.gold, textTransform: 'uppercase', letterSpacing: 3, fontWeight: 600, marginTop: 4 }}>
-                WoolTools
+                Waco, TX
               </div>
             </div>
           </div>
