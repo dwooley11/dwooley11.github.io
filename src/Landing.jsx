@@ -99,7 +99,7 @@ export default function Landing() {
             <span style={{ color: BRAND.gold }}>in one place.</span>
           </div>
           <p style={{ fontSize: 16, color: 'rgba(255,255,255,0.55)', maxWidth: 420, lineHeight: 1.6 }}>
-            Personal tools for personal, professional, and proprietorship.
+            Tools for personal, professional, and proprietary use.
           </p>
         </header>
 
