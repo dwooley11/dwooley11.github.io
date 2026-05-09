@@ -103,33 +103,64 @@ export default function Landing() {
           </p>
         </header>
 
-        <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley9.github.io/higgforce/'}>
-          <div style={{
-            width: 52, height: 52, borderRadius: 14,
-            background: 'rgba(200,168,90,0.12)', border: '1px solid rgba(200,168,90,0.25)',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            color: BRAND.gold, marginBottom: 18,
-          }}>
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-              <rect x="2" y="4" width="24" height="20" rx="3" stroke="currentColor" strokeWidth="1.75"/>
-              <path d="M8 10h12M8 14h8M8 18h5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
-              <circle cx="21" cy="18" r="4" fill="#154734" stroke="#C8A85A" strokeWidth="1.5"/>
-              <path d="M19.5 18l1 1 2-2" stroke="#C8A85A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 24 }}>
+          <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley9.github.io/higgforce/'}>
+            <div style={{
+              width: 52, height: 52, borderRadius: 14,
+              background: 'rgba(200,168,90,0.12)', border: '1px solid rgba(200,168,90,0.25)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              color: BRAND.gold, marginBottom: 18,
+            }}>
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <rect x="2" y="4" width="24" height="20" rx="3" stroke="currentColor" strokeWidth="1.75"/>
+                <path d="M8 10h12M8 14h8M8 18h5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
+                <circle cx="21" cy="18" r="4" fill="#154734" stroke="#C8A85A" strokeWidth="1.5"/>
+                <path d="M19.5 18l1 1 2-2" stroke="#C8A85A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <div style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: BRAND.gold, marginBottom: 6 }}>CRM</div>
+            <div style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: 18, fontWeight: 600, color: '#fff', marginBottom: 10, lineHeight: 1.2 }}>
+              Higg CRM
+            </div>
+            <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>
+              Prospecting, Pipeline, Productivity, & Portfolio — all in one place.
+            </p>
+            <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley9.github.io/higgforce/'; }}>
+              Open Higg CRM
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M3 7h8M7.5 3.5L11 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </button>
           </div>
-          <div style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: BRAND.gold, marginBottom: 6 }}>CRM</div>
-          <div style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: 18, fontWeight: 600, color: '#fff', marginBottom: 10, lineHeight: 1.2 }}>
-            Higg CRM
+
+          <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley9.github.io/dynasty/'}>
+            <div style={{
+              width: 52, height: 52, borderRadius: 14,
+              background: 'rgba(200,168,90,0.12)', border: '1px solid rgba(200,168,90,0.25)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              color: BRAND.gold, marginBottom: 18,
+            }}>
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <path d="M4 20h20M5 20V11l4 3 5-7 5 7 4-3v9" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="5" cy="9" r="1.25" fill="currentColor"/>
+                <circle cx="14" cy="5" r="1.25" fill="currentColor"/>
+                <circle cx="23" cy="9" r="1.25" fill="currentColor"/>
+              </svg>
+            </div>
+            <div style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: BRAND.gold, marginBottom: 6 }}>Fantasy</div>
+            <div style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: 18, fontWeight: 600, color: '#fff', marginBottom: 10, lineHeight: 1.2 }}>
+              Dynasty
+            </div>
+            <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>
+              Rosters, rankings, and long-term roster strategy.
+            </p>
+            <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley9.github.io/dynasty/'; }}>
+              Open Dynasty
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M3 7h8M7.5 3.5L11 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </button>
           </div>
-          <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>
-            Prospecting, Pipeline, Productivity, & Portfolio — all in one place.
-          </p>
-          <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley9.github.io/higgforce/'; }}>
-            Open Higg CRM
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <path d="M3 7h8M7.5 3.5L11 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </button>
         </div>
 
         <footer style={{ marginTop: 'auto', paddingTop: 64 }}>
