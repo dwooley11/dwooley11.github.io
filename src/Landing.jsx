@@ -104,7 +104,7 @@ export default function Landing() {
         </header>
 
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 24 }}>
-          <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley9.github.io/higgforce/'}>
+          <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley11.github.io/higgforce/'}>
             <div style={{
               width: 52, height: 52, borderRadius: 14,
               background: 'rgba(200,168,90,0.12)', border: '1px solid rgba(200,168,90,0.25)',
@@ -125,7 +125,7 @@ export default function Landing() {
             <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>
               Prospecting, Pipeline, Productivity, & Portfolio — all in one place.
             </p>
-            <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley9.github.io/higgforce/'; }}>
+            <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley11.github.io/higgforce/'; }}>
               Open Higg CRM
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M3 7h8M7.5 3.5L11 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
@@ -133,7 +133,7 @@ export default function Landing() {
             </button>
           </div>
 
-          <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley9.github.io/dynasty/'}>
+          <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley11.github.io/dynasty/'}>
             <div style={{
               width: 52, height: 52, borderRadius: 14,
               background: 'rgba(200,168,90,0.12)', border: '1px solid rgba(200,168,90,0.25)',
@@ -154,7 +154,7 @@ export default function Landing() {
             <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>
               Rosters, rankings, and long-term roster strategy.
             </p>
-            <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley9.github.io/dynasty/'; }}>
+            <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley11.github.io/dynasty/'; }}>
               Open Dynasty
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M3 7h8M7.5 3.5L11 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
