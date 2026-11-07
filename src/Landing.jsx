@@ -189,6 +189,35 @@ export default function Landing() {
               </svg>
             </button>
           </div>
+
+          <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley11.github.io/baylor-stats/'}>
+            <div style={{
+              width: 52, height: 52, borderRadius: 14,
+              background: 'rgba(200,168,90,0.12)', border: '1px solid rgba(200,168,90,0.25)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              color: BRAND.gold, marginBottom: 18,
+            }}>
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <path d="M4 24h20" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
+                <rect x="6" y="14" width="4" height="10" rx="1" stroke="currentColor" strokeWidth="1.75"/>
+                <rect x="12" y="9" width="4" height="15" rx="1" stroke="currentColor" strokeWidth="1.75"/>
+                <rect x="18" y="4" width="4" height="20" rx="1" stroke="currentColor" strokeWidth="1.75"/>
+              </svg>
+            </div>
+            <div style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: BRAND.gold, marginBottom: 6 }}>Sports</div>
+            <div style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: 18, fontWeight: 600, color: '#fff', marginBottom: 10, lineHeight: 1.2 }}>
+              Baylor Stats
+            </div>
+            <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>
+              Box scores, game flow, and the numbers worth watching for Baylor basketball and football.
+            </p>
+            <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley11.github.io/baylor-stats/'; }}>
+              Open Baylor Stats
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M3 7h8M7.5 3.5L11 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </button>
+          </div>
         </div>
 
         <footer style={{ marginTop: 'auto', paddingTop: 64 }}>
