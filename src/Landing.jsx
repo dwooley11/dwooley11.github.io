@@ -104,35 +104,6 @@ export default function Landing() {
         </header>
 
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 24 }}>
-          <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley11.github.io/dynasty/'}>
-            <div style={{
-              width: 52, height: 52, borderRadius: 14,
-              background: 'rgba(200,168,90,0.12)', border: '1px solid rgba(200,168,90,0.25)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              color: BRAND.gold, marginBottom: 18,
-            }}>
-              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                <path d="M4 20h20M5 20V11l4 3 5-7 5 7 4-3v9" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
-                <circle cx="5" cy="9" r="1.25" fill="currentColor"/>
-                <circle cx="14" cy="5" r="1.25" fill="currentColor"/>
-                <circle cx="23" cy="9" r="1.25" fill="currentColor"/>
-              </svg>
-            </div>
-            <div style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: BRAND.gold, marginBottom: 6 }}>Fantasy</div>
-            <div style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: 18, fontWeight: 600, color: '#fff', marginBottom: 10, lineHeight: 1.2 }}>
-              Dynasty
-            </div>
-            <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>
-              Rosters, rankings, and long-term roster strategy.
-            </p>
-            <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley11.github.io/dynasty/'; }}>
-              Open Dynasty
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M3 7h8M7.5 3.5L11 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </button>
-          </div>
-
           <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley11.github.io/SFRcalc/'}>
             <div style={{
               width: 52, height: 52, borderRadius: 14,
@@ -184,6 +155,35 @@ export default function Landing() {
             </p>
             <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley11.github.io/baylor-stats/'; }}>
               Open Baylor Stats
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M3 7h8M7.5 3.5L11 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </button>
+          </div>
+
+          <div className={`tool-card ${mounted ? 'mounted' : ''}`} onClick={() => window.location.href = 'https://dwooley11.github.io/dynasty/'}>
+            <div style={{
+              width: 52, height: 52, borderRadius: 14,
+              background: 'rgba(200,168,90,0.12)', border: '1px solid rgba(200,168,90,0.25)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              color: BRAND.gold, marginBottom: 18,
+            }}>
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <path d="M4 20h20M5 20V11l4 3 5-7 5 7 4-3v9" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="5" cy="9" r="1.25" fill="currentColor"/>
+                <circle cx="14" cy="5" r="1.25" fill="currentColor"/>
+                <circle cx="23" cy="9" r="1.25" fill="currentColor"/>
+              </svg>
+            </div>
+            <div style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: BRAND.gold, marginBottom: 6 }}>Fantasy Football</div>
+            <div style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: 18, fontWeight: 600, color: '#fff', marginBottom: 10, lineHeight: 1.2 }}>
+              Dynasty
+            </div>
+            <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>
+              Rosters, rankings, and long-term roster strategy.
+            </p>
+            <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley11.github.io/dynasty/'; }}>
+              Open Dynasty
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M3 7h8M7.5 3.5L11 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
