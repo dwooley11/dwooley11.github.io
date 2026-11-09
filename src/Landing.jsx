@@ -148,13 +148,13 @@ export default function Landing() {
             </div>
             <div style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: BRAND.gold, marginBottom: 6 }}>Real Estate</div>
             <div style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: 18, fontWeight: 600, color: '#fff', marginBottom: 10, lineHeight: 1.2 }}>
-              SFRcalc
+              RE Investment Analysis
             </div>
             <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>
-              SFR investment property cash flow with DSCR analysis.
+              Rental deal underwriting, DSCR targets, and portfolio planning.
             </p>
             <button className="launch-btn" onClick={e => { e.stopPropagation(); window.location.href = 'https://dwooley11.github.io/SFRcalc/'; }}>
-              Open SFRcalc
+              Open Analysis
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M3 7h8M7.5 3.5L11 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
